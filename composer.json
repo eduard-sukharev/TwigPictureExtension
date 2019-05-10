@@ -1,0 +1,29 @@
+{
+    "name": "ed.sukharev/twig-picture-extension",
+    "description": "A Twig extension to generate picture tags",
+    "keywords": ["twig", "images", "pictures"],
+    "homepage": "https://github.com/eduard-sukharev/TwigPictureExtension",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduard Sukharev",
+            "email": "sukharev.eh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "twig/twig": ">=1.0,<=1.36.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "phpdocumentor/reflection-docblock": "~2.0.5",
+        "doctrine/instantiator": "~1.0.5"
+    },
+    "suggest": {
+        "ext-fileinfo": "Allows for more precise MIME type generation"
+    },
+    "autoload": {
+        "psr-4": { "PictureExtension\\Twig\\Extension\\": "src" }
+    }
+}
